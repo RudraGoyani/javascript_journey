@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#121212;
+    color:white;
+    font-family:Arial, sans-serif;
+}
+
+.container{
+    text-align:center;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+input{
+    padding:10px;
+    width:200px;
+    margin-top:15px;
+    text-align:center;
+}
+
+button{
+    padding:10px 20px;
+    margin-left:10px;
+    cursor:pointer;
+}
+
+#message{
+    margin-top:20px;
+    font-size:1.3rem;
+    font-weight:bold;
+}
