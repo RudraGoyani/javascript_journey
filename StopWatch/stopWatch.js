@@ -9,9 +9,6 @@ document.getElementById("start-btn").addEventListener("click", function () {
         timer = setInterval(updateTime, 10);
         isRunning = true;
     }
-    else {
-      
-    }
 });
 document.getElementById("stop-btn").addEventListener("click", function () {
     clearInterval(timer);
