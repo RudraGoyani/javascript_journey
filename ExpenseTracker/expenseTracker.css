@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    background:#121212;
+    color:white;
+    font-family:Arial, sans-serif;
+    padding:40px;
+}
+
+.container{
+    max-width:700px;
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.summary{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+#total{
+    font-size:2rem;
+    color:#00ff88;
+    font-weight:bold;
+}
+
+.input-section{
+    display:flex;
+    gap:10px;
+    margin-bottom:25px;
+}
+
+.input-section input{
+    flex:1;
+    padding:10px;
+}
+
+.input-section button{
+    padding:10px 15px;
+    cursor:pointer;
+}
+
+.expense{
+    background:#2a2a2a;
+    padding:15px;
+    margin-bottom:10px;
+    border-radius:8px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.delete-btn{
+    background:#d50000;
+    color:white;
+    border:none;
+    padding:8px 12px;
+    border-radius:5px;
+    cursor:pointer;
+}
